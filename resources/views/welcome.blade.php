@@ -45,7 +45,7 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 24px;
             }
 
             .links > a {
@@ -81,17 +81,16 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Mirovisnko Prvi Stup <br>
+                    <img src="{{$mirovinskoPrviStup->encode('data-url')}}" alt="">
                 </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                <div class="title m-b-md">
+                    Mirovisnko Drugi Stup <br>
+                    <img src="{{$mirovinskoDrugiStup->encode('data-url')}}" alt="">
+                </div>
+                <div class="title m-b-md">
+                    Zdravstveno <br>
+                    <img src="{{$zdravstveno->encode('data-url')}}" alt="">
                 </div>
             </div>
         </div>
